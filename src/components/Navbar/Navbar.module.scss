@@ -1,0 +1,32 @@
+.navbar {
+  width: 100%;
+  height: 64px;
+  background-color: #000000cc;
+
+  box-shadow: inset 0 -1px 0 0 #333;
+  backdrop-filter: saturate(180%) blur(5px);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.body {
+  width: 100%;
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+
+  &__links {
+    display: flex;
+    gap: 12px;
+
+    a {
+      background-color: #ededed;
+      height: 32px;
+      padding: 0 12px;
+    }
+  }
+}
